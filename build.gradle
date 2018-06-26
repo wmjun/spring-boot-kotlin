@@ -38,6 +38,8 @@ dependencies {
 
     testCompile "org.springframework.boot:spring-boot-starter-test"
 
+    runtime "mysql:mysql-connector-java"
+
 }
 
 compileKotlin {

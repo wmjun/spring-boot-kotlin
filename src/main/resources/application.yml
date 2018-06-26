@@ -1,1 +1,10 @@
-spring.jpa.show-sql: true
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/simples?useUnicode=true&charaterEncoding=utf-8
+    username: starbucks
+    password: starbucks
+    driver-class-name: com.mysql.jdbc.Driver
